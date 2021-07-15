@@ -60,11 +60,72 @@ body {
 .author__explain {
   margin-left: 10px;
 }
+.author img {
+  height: 126px;
+  width: 108px;
+}
 .author__explain p:first-child {
   color: rgb(0, 0, 5);
   font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .author__explain p:last-child {
   color: rgba(0, 0, 0, 0.3);
   font-size: 15px;
+}
+.fa-star {
+  width: 5px;
+  height: 5px;
+  margin-right: 3px;
+}
+.content__top {
+  margin-left: 10px;
+}
+.content__top p:first-child {
+  color: rgb(0, 0, 5);
+  font-size: 20px;
+  margin: 0px;
+}
+.content__top p:last-child {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+.content__star {
+  margin-left: 12px;
+}
+.content__button {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.content__button button {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.content__bottom {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content__bottom button {
+  margin-left: 50px;
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 7px;
+  border: 1px solid white;
+}
+.fa-bookmark {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffce33;
+  margin-left: 10px;
+  text-align: center;
 }
